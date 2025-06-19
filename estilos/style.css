@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../imagens/bmw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#foto{
+    height: 100px;
+    width: 100px;
+    background-image: url(../imagens/perfil.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin: 15px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    margin: 15px;
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.685);
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+}
+.cards:hover{
+    background-color: rgba(255, 255, 255, 0.801);
+    transition: .5s;
+}
+aside{
+    margin-top: 25px;
+}
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 20px 8px;
+}
+aside a:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+#insta{
+    background-image: url(../imagens/insta.png);
+    background-size: cover;
+}
+#facebook{
+    background-image: url(../imagens/face.png);
+    background-size: cover;
+}
+#zap{
+    background-image: url(../imagens/zap.png);
+    background-size: cover;
+}
+@media (min-width: 768px){
+body{
+    background-image: url(../imagens/pexels-photo-27184239.jpeg);
+
+}
+.cards{
+    width: 30vw;
+}
+aside{
+    margin-top: 155px;
+}
+}
+
