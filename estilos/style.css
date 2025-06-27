@@ -76,15 +76,15 @@ aside a:hover{
     transition: transform 0.3s;
 }
 #insta{
-    background-image: url(../imagens/insta.png);
+    background-image: url(../imagens/icons8-instagram-50.png);
     background-size: cover;
 }
 #facebook{
-    background-image: url(../imagens/face.png);
+    background-image: url(../imagens/icons8-facebook-50.png);
     background-size: cover;
 }
 #zap{
-    background-image: url(../imagens/zap.png);
+    background-image: url(../imagens/icons8-youtube-50.png);
     background-size: cover;
 }
 @media (min-width: 768px){
