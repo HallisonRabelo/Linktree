@@ -7,7 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url(../imagens/bmwalto.jpg);
+    background-image: url(../imagens/background\ mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -76,15 +76,15 @@ aside a:hover{
     transition: transform 0.3s;
 }
 #insta{
-    background-image: url(../imagens/icons8-instagram-50.png);
+    background-image: url(../imagens/Icons8/icons8-instagram-50.png);
     background-size: cover;
 }
 #facebook{
-    background-image: url(../imagens/icons8-facebook-50.png);
+    background-image: url(../imagens/Icons8/icons8-facebook-50.png);
     background-size: cover;
 }
 #zap{
-    background-image: url(../imagens/icons8-youtube-50.png);
+    background-image: url(../imagens/Icons8/icons8-whatsapp-50.png);
     background-size: cover;
 }
 @media (min-width: 768px){
@@ -97,6 +97,15 @@ body{
 }
 aside{
     margin-top: 155px;
+}
+#insta{
+    background-image: url(../imagens/insta.png);
+}
+#facebook{
+    background-image: url(../imagens/face.png);
+}
+#zap{
+    background-image: url(../imagens/zap.png);
 }
 }
 
